@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Boxicons -->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<!-- My CSS -->
+	<link rel="stylesheet" href="/css/Adminclients.css">
+	<link rel="stylesheet" href="/css/Adminforms.css">
+
+	<title>ADMIN</title>
+</head>
+<body>
+
+
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<img src="/img/wmsulogo.png" alt="" style="height: 60px;margin: 50px 0 0px 10px;">
+			<span class="text" style="margin: 50px 0 0 10px;">REGISTRAR</span>
+		</a>
+		<ul class="side-menu top">
+			<li>
+				<a href="/user-types/admin/admin-dashboard.html">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="/user-types/admin/admin-forms.html">
+					<i class='bx bxs-shopping-bag-alt' ></i>
+					<span class="text">Forms</span>
+				</a>
+			</li>
+			<li>
+				<a href="/user-types/admin/admin-appointments.html">
+					<i class='bx bx-task'></i>
+					<span class="text">Appointments</span>
+				</a>
+			</li>
+			<li>
+				<a href="/user-types/admin/tellers.html">
+					<i class='bx bxs-group' ></i>
+					<span class="text">Tellers</span>
+				</a>
+			</li>
+			<li  class="active">
+				<a href="/user-types/admin/clients.html">
+					<i class='bx bxs-group' ></i>
+					<span class="text">Clients</span>
+				</a>
+			</li>
+			<li>
+				<a href="/user-types/admin/window.html">
+					<i class='bx bx-grid-small'></i>
+					<span class="text">Window</span>
+				</a>
+			</li>
+			<li>
+				<a href="/user-types/admin/videos.html">
+					<i class='bx bxs-camera-movie'></i>
+					<span class="text">Videos</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="#">
+					<i class='bx bxs-cog' ></i>
+					<span class="text">Profile</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bxs-log-out-circle' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+
+
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu' ></i>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<h3 style="margin: auto;">Forms List</h3>
+			<table class="content-table">
+				<thead>
+				  <tr>
+					<th>Rank</th>
+					<th>Name</th>
+					<th>Points</th>
+					<th>Team</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<td>1</td>
+					<td>Domenic</td>
+					<td>88,110</td>
+					<td>
+						<center>
+							<button>Update</button>
+							<button>Delete</button>
+						</center>
+					</td>
+				  </tr>
+				  <tr class="active-row">
+					<td>2</td>
+					<td>Sally</td>
+					<td>72,400</td>
+					<td>
+						<center>
+							<button>Update</button>
+							<button>Delete</button>
+						</center>
+					</td>
+				  </tr>
+				  <tr>
+					<td>3</td>
+					<td>Nick</td>
+					<td>52,300</td>
+					<td>
+						<center>
+							<button>Update</button>
+							<button>Delete</button>
+						</center>
+					</td>
+				  </tr>
+				</tbody>
+			  </table>
+		
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- CONTENT -->
+	
+
+	<script src="/javascript/script.js"></script>
+</body>
+</html>
